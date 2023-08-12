@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Jost:wght@400;600&family=Lato:wght@400;700&display=swap');
+
+/* Переменные */
+
+:root {
+    --light-green: rgba(0, 185, 86, 0.20);
+    --midlle-green: #00B956;
+    --black-green: #168457;
+    --black: #000;
+}
+
+/* Шапка */
+
+.header {
+    width: 100%;
+    height: 349px;
+    background-color: #E6F5EF;
+}
+
+.header__conteiner {
+    max-width: 1440px;
+}
+
+.header__cat {
+    display: block;
+    float: right;
+    margin-top: 61px;
+    margin-right: 125px;
+}
+
+.header__service {
+    display: flex;
+    flex-direction: column;
+    margin-left: 56px;
+    margin-bottom: 21px;
+}
+
+/* Текст шапки */
+
+.header__service__text {
+    color: var(--black);
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 47px;
+    padding-top: 38px;
+    padding-bottom: 19px;
+}
+
+.header__service__title {
+    color: var(--black);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    opacity: 0.7;
+}
+
+.header__block {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+/* Кнопки из шапки */
+
+.header__button {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 66px;
+    margin-bottom: 19px;
+    margin-left: 56px;
+}
+
+.header__button__green {
+    width: 211px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-green);
+
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    transition: 0.2s ease-in;
+}
+
+.header__button__green:hover {
+    background-color: var(--midlle-green);
+}
+
+.header__card {
+    display: flex;
+    flex-direction: row;
+    margin-left: 53px;
+    gap: 14px;
+}
+
+/* Карточки с картинками */
+
+.header__card__block {
+    width: 319px;
+    height: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(../img/background.svg);
+}
+
+.header__card__icons {
+    min-width: 43.66px;
+    min-height: 43.66px;
+}
+
+#oneicons {
+    padding-right: 29px;
+}
+
+.header__card__text {
+    min-width: 75.589px;
+    min-height: 27.909px;
+}
+
+#onetext {
+    padding-right: 48.5px;
+}
+
+.header__card__img {
+    min-width: 93.312px;
+    min-height: 93.313px;
+}
+
+#twoicons {
+    padding-right: 38.03px;
+}
+
+#threeicons {
+    padding-right: 38.03px;
+}
+
+#threetext {
+    padding-right: 18.55px;
+}
+
+#fouricons {
+    padding-right: 38.03px;
+}
+
+/* Второй блок*/
+.content {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-left: 56px;
+    padding-top: 24px;
+    padding-bottom: 26px;
+}
+
+.content__line {
+    border-top: 1px solid #D1D8D6;
+}
+
+.container {
+    justify-content: center;
+    margin-left: 56px;
+    margin-top: 15px;
+    max-width: 1246px;
+}
+
+.content__row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 44.5px;
+}
+
+.content__row__link {
+    display: flex;
+    height: 18px;
+    align-items: flex-start;
+    gap: 26.92px;
+}
+
+.content__row__link__a {
+    color: #8F9399;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/* Карточка */
+.content__flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content__flexbox__card {
+    width: 370px;
+    height: 357px;
+    border-radius: 5px;
+    border: 1px solid #EEF0F6;
+    background: #FFF;
+    box-shadow: 0px 14px 60px -20px rgba(108, 129, 171, 0.30);
+}
+
+#cardone {
+    margin-right: 69px;
+    margin-bottom: 28.5px;
+}
+
+#cardtwo {
+    margin-right: 65px;
+    margin-bottom: 26.5px;
+}
+
+#cardthree {
+    margin-bottom: 43.5px;
+}
+
+#cardfive {
+    margin-right: 71px;
+}
+
+.content__flexbox__block {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.content__flexbox__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    border: 1px solid #00898A;
+    box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
+
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+#btnone {
+    width: 150px;
+    height: 32px;
+}
+
+#btnstwo {
+    width: 76px;
+    height: 32px;
+}
+
+#btntwo {
+    width: 76px;
+    height: 32px;
+    margin-left: 0px;
+    border: 1px solid #1A465F;
+}
+
+#btnfive {
+    width: 121px;
+    height: 32px;
+    margin-left: 0px;
+}
+
+.content__flexbox__btn__text {
+    display: flex;
+    flex-direction: row;
+    color: #00898A;
+    font-family: "Jost", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+
+.content__flexbox__text {
+    color: #1A465F;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 23px;
+    padding-bottom: 11px;
+}
+
+#texttwo {
+    padding-left: 24px;
+    padding-bottom: 13px;
+}
+
+#textthree {
+    padding-bottom: 14px;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+#textfive {
+    font-size: 18px;
+}
+
+.content__flexbox__title {
+    color: #1A465F;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 23px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+}
+
+#titletwo {
+    padding-bottom: 31.5px;
+}
+
+.content__flexbox__tips {
+    display: flex;
+    flex-direction: row;
+    max-width: 250px;
+    max-height: 96px;
+    margin-left: 21px;
+    gap: 4px;
+    margin-bottom: 28px;
+}
+
+#tipstwo {
+    margin-bottom: 46.5px;
+}
+
+#tipsfive {
+    margin-bottom: 47px;
+}
+
+#tipsthree {
+    max-width: 291px;
+    max-height: 114px;
+    margin-bottom: 9px;
+}
+
+.content__flexbox__tips__text {
+    color: #1A465F;
+    font-family: "Jost", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content__flexbox__bottom {
+    display: flex;
+    width: 322px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 129px 10px 114px;
+    border-radius: 5px;
+    border: 1px solid #168457;
+    margin-left: 25px;
+    transition: 0.2s ease-in;
+    
+    /*текст*/
+    color: #168457;
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20.04px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+}
+
+.content__flexbox__bottom:hover {
+    background: #168457;
+    color: #fff;
+}
+
+/* Мини карточка */
+.content__flexbox__boxs {
+    width: 364.586px;
+    height: 150px;
+    border-radius: 6.25px;
+    background: #FFF;
+    box-shadow: 0px 0.1953125px 1.5625px 0.78125px rgba(0, 0, 0, 0.07);
+    margin-bottom: 43px;
+}
+
+.content__flexbox__boxs:last-child {
+    margin-bottom: 0px;
+}
+
+.content__flexbox__boxs__text {
+    display: flex;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-size: 14.844px;
+    font-weight: 500;
+    line-height: 21.875px;
+    text-transform: uppercase;
+
+    padding-top: 17.19px;
+    padding-left: 12.5px;
+    padding-bottom: 10.94px;
+}
+
+#boxstext {
+    padding-bottom: 11.37px;
+}
+
+#boxstexttwo {
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+
+#boxstitletwo {
+    padding-bottom: 5.19px;
+}
+
+#boxstextthree {
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+
+#boxstitlehree {
+    padding-bottom: 7px;
+}
+
+.content__flexbox__boxs__title {
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-size: 10.938px;
+    font-weight: 400;
+    line-height: 18.75px;
+    padding-left: 12.5px;
+    padding-bottom: 16.12px;
+}
+
+#boxsmargin {
+    margin-right: 74.41px;
+    margin-bottom: 42px;
+}
+
+/* Две карточки с предложением */
+.content__helpers {
+    display: flex;
+    flex-direction: row;
+    gap: 74.2px;
+    margin-bottom: 70px;
+}
+
+.content__helpers__card {
+    display: flex;
+    flex-direction: row;
+    width: 560.648px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #168457;
+    background: #FFF;
+    box-shadow: 0px 14px 60px -20px rgba(108, 129, 171, 0.30);
+}
+
+.content__helpers__card__block {
+    padding-left: 23px;
+}
+
+.content__helpers__card__blocks {
+    padding-left: 19.16px;
+}
+
+#helpcard {
+    width: 611.148px;
+    height: 200px;
+}
+
+.content__helpers__text {
+    max-width: 334px;
+    padding-top: 20px;
+    color: #0D3A51;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%; 
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+}
+
+.content__helpers__title {
+    max-width: 322px;
+    color: #1A465F;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-right: 22.4px
+}
+
+.content__helpers__btn {
+    display: flex;
+    width: 196px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    border: 1px solid #168457;
+    background: rgba(0, 136, 137, 0.00);
+    box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.2s ease-in;
+
+    color: #168457;
+    font-family: "Jost", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+}
+
+.content__helpers__btn:hover {
+    background: #168457;
+    color: #fff;
+}
+
+.content__helpers__img {
+    display: flex;
+}
+
+#helpimg {
+    min-width: 211.415px;
+    min-height: 136px;
+    padding-right: 23.7px;
+    padding-top: 22px;
+    padding-bottom: 42px;
+}
+
+/* FAQ */
+.faq {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 68px;
+}
+
+.faq__text {
+    display: flex;
+    justify-content: center;
+    color: #0D3A51;
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+}
+
+.faq__text:last-child {
+    margin-bottom: 0px;
+}
+
+.faq__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion {
+    min-width: 925px;
+}
+
+.tab input,
+.tab__content {
+    display: none;
+    max-width: 925px;
+    color: #112C3A;
+    font-family: "Jost", sans-serif;
+    font-size: 20.25px;
+    font-weight: 400;
+    line-height: 130%;
+    padding-bottom: 67px;
+}
+
+.tab {
+    border-radius: 4px;
+    min-height: 79px;
+    border: 1px solid rgba(0, 137, 138, 0.30);
+    background: #FFF;
+    margin-bottom: 28px;
+}
+
+.tab__title { 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 29px;
+    margin-bottom: 21px;
+
+    color: #112C3A;
+    font-family: "Jost", sans-serif;
+    font-size: 20.25px;
+    font-weight: 400;
+    line-height: 130%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.tab__title::after {
+    padding-right: 30px;
+    transition: 0.2s ease-out;
+    content: url("../img/arrow.svg");
+}
+
+.tab__content {
+    padding-left: 25px;
+}
+
+.tab :checked + .tab__title {
+    background: #FFF;
+}
+
+.tab :checked + .tab__title::after {
+    content: url("../img/plus.svg");
+}
+
+.tab :checked ~ .tab__content {
+    display: block;
+}
+
+/* Карточка */
+
+.faq__card {
+    width: 296.718px;
+    height: 377px;
+    border-radius: 5px;
+    border: 0.8px solid rgba(0, 137, 138, 0.30);
+    background: #FFF;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.15);
+}
+
+.faq__card__text {
+    max-width: 204px;
+    color: #0D3A51;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 22px 0px 50px 19px;
+}
+
+.faq__card__title {
+    max-width: 223px;
+    color: #112C3A;
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%; 
+    padding: 0px 0px 52px 21px;
+}
+
+.faq__card__bottom {
+    display: flex;
+    height: 36px;
+    padding: 16px 46px 16px 49px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    border: 1px solid #00898A;
+    background: #00898A;
+    box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 21px;
+
+    color: #FFF;
+    font-family: "Jost", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+}
+
+
+
